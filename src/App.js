@@ -56,7 +56,7 @@ const Home = () => {
         <div className="row">
           <Filters setStatus={setStatus} setGender={setGender} setPageNumber={setPageNumber} setSpecies={setSpecies}/>
           
-          <div className="col-8">
+          <div className="col-lg-8 col-12">
             <div className="row">
               <Cards results={results} />
               </div>
